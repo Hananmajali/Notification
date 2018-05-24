@@ -36,7 +36,6 @@ window.angular.module('exampleApp', [
         Status:$scope.user.status,
         Name:$scope.user.name
       }
-
     })
     .then(function (res) {
       console.log('fucks')
