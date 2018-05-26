@@ -10,35 +10,25 @@ window.angular.module('exampleApp', [
         'use strict';
 
         $scope.click = function(data){
-
             $scope.user.status = data
-
-            console.log('gggg',data,  $scope.user.name, $scope.user.status)
         }
 
         $scope.title = new Date();
         $scope.text = 'Please click here to get your data';
 
         $scope.call = function () {
-            console.log("alo alo",$scope.user.name,$scope.user.status)
 
-            // Note.submitIfno()
-            // .then(function (resp) {
-         // return resp.data.token;
-        // console.log('fucks')
      $http({
       method: 'POST',
       async:false,
-      // dataType : "json",
-      // contentType: "application/json",
-      url: '/sth',
+      url: '/Notification',
       data:{
         Status:$scope.user.status,
         Name:$scope.user.name
       }
     })
     .then(function (res) {
-      console.log('fucks')
+      console.log('your data has beev saved')
       
     })
     .catch(function(error) {
@@ -63,7 +53,7 @@ window.angular.module('exampleApp', [
             // var ModifiedTime = time.split(" ");
             // var hoursTime = ModifiedTime[4]
 
-            function hanan(){
+            function Notification(){
                 webNotification.showNotification("Emotional Notification" , {
                     body: 'Please click here to get your data',
                     onClick: function onNotificationClicked() {
@@ -94,14 +84,13 @@ window.angular.module('exampleApp', [
                     var now = new Date();
                     console.log(now.getHours())
                     if ( (now.getHours() === 11 && now.getMinutes()===0) || (now.getHours() === 15 && now.getMinutes()===0 ) ) {
-                      hanan();
+                      Notification();
                   }
                      now = new Date();                  // allow for time passing
                      var delay = 60000 - (now % 60000); // exact ms to next minute interval
                      setTimeout(loop, delay);
                  })();
              }
-            // element.on('click', function onClick() {
 
             }
         };

@@ -22,7 +22,7 @@ app.listen(port,function(){
 })
 
 
-app.post('/sth',function(req,res){ 
+app.post('/Notification',function(req,res){ 
 	var data=req.body
 	var Name=data.Name;
 	var Status=data.Status;
