@@ -48,7 +48,7 @@ You do not have to login/signup to use this app. However, without doing so, you 
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-  ⦿Prerequisites
+  ### Prerequisites
 
    What things you need to install software re and how to install them 
    * This link contain the manual contains tutorials on installation of MongoDB. in diffrent platforms (Linux, macOS And Windows)
@@ -62,7 +62,7 @@ These instructions will get you a copy of the project up and running on your loc
 
   Development of this application started on May 5, 2018 and the minimum viable product (MVP) was completed on May 8, 2018. The final application was deployed on Heroku on 26 May, 2018.
 
-  ⦿Installing Dependencies:
+ ### Installing Dependencies:
 
   From inside the repo directory 
   ```
@@ -72,7 +72,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 
    
-  ⦿Running Application:
+  ### Running Application:
 
   - [x] clone the repo OR download it.
   - [x] Run your data base mongodDB from your commander
@@ -96,21 +96,20 @@ Please see [supported browser versions](https://caniuse.com/#feat=notifications)
 
 # API Documentation:
 
-  ⦿Overview 
+  ### Overview 
 
-  The angular-web-notification is an angular service wrapper for the web notifications API.
+The angular-web-notification is an angular service wrapper for the web notifications API.
 
 It is using the simple-web-notification library which provides a simple and easy notification API which works across browsers and provides automatic permission handling.
 See [W3 Specification](https://dvcs.w3.org/hg/notifications/raw-file/tip/Overview.html), [simple-web-notification](https://github.com/sagiegurari/simple-web-notification) 
 And [Notification-Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/notification) for more information.
 
- Angular2andUp Forangular2andabove,itisrecommandedtousethesimple-web-
- notificationlibrarydirectly.
- ItprovidesthesameAPIanditisnotdependendonangular.
+ - [x] Angular2 and Up Forangular2andabove,it is recommanded to use the simple-web-notification library directly.
+ It provides the same API and it is not dependend on angular.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 ```
-** webNotification ⇒ Object
+webNotification ⇒ Object
     The web notification service wraps the HTML 5 Web Notifications API as an angular service.
     See simple-web-notification for more API details.
 
