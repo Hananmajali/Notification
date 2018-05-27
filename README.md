@@ -109,7 +109,7 @@ And [Notification-Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/A
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 ```
-:+1: webNotification ⇒ Object
+#### webNotification ⇒ Object
     The web notification service wraps the HTML 5 Web Notifications API as an angular service.
     See simple-web-notification for more API details.
 
@@ -118,17 +118,12 @@ Returns: Object - The service instance
 Ngdoc: service
 Author: Sagie Gur-Ari
 
-:+1: webNotification.showNotification([title], [options], [callback])
+#### webNotification.showNotification([title], [options], [callback])
   Shows the notification based on the provided input.
   The callback invoked will get an error object (in case of an error, null in case of no errors) and a 'hide' function which can be used to hide the notification.
 
 Access: public
 ```
-
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
 
 | Param | Type | Default | Description | 
 | --- | --- | --- | --- |
