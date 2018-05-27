@@ -1,4 +1,4 @@
-#Project Title:
+# Project Title:
 
 Emotional-Notification
 
@@ -10,12 +10,12 @@ Description:
  A notification at specific time then when they are clicking  on this notification they will get a dialog forms to fill it,
  After submitting we will save those information at our data base.
 
-#Team:
+# Team:
  - Product Owner: @Sarah-Yousef.
  - Scrum Master: @Hanan-Majali.
  - Development Team Members: @Hanan-majali ,@Sarah-Yousef.
 
-#Table of Contents:
+# Table of Contents:
 
   -Usage
   -Technologies
@@ -25,17 +25,17 @@ Description:
     .Installing Dependencies.
     .Run Application
 
-#Demo:
+# Demo:
 
 deployed version link  
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------    
 
--Usage:
+##Usage:
 
 You do not have to login/signup to use this app. However, without doing so, you will only get a notification at specific time. Once you get a notification, you will fill some information and submit.
 
--Technologies:
+##Technologies:
 
    Node.js
    AngularJs
@@ -44,7 +44,7 @@ You do not have to login/signup to use this app. However, without doing so, you 
    Robo 3T 1.1.1
    MLab
 
--Getting Started
+##Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -58,49 +58,55 @@ These instructions will get you a copy of the project up and running on your loc
 
    * then Go to Installing Dependencies part and run those command at your terminal or your bash commander.
 
--Development:
+##Development:
 
   Development of this application started on May 5, 2018 and the minimum viable product (MVP) was completed on May 8, 2018. The final application was deployed on Heroku on 26 May, 2018.
 
   ⦿Installing Dependencies:
 
     From inside the repo directory 
-     -npm install.
-     -bower install.
+    ```
+     npm install.
+     bower install.
+     ```
 
    
   ⦿Running Application:
 
    1- clone the repo OR download it.
    2- Run your data base mongodDB from your commander
+     ```
      - mongod
+     ```
    3- From inside the repo directory go to server directory and run
+     ```
      -node index.js 
+     ```
    4- open the App in the browser like (chrome browser) at 127.0.0.1:8000  
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#Limitations:
+# Limitations:
 The web notifications API is not fully supported in all browsers.
-Please see supported browser versions (https://caniuse.com/#feat=notifications) for more information on the official spec support.
+Please see [supported browser versions](https://caniuse.com/#feat=notifications) for more information on the official spec support.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#API Documentation:
+# API Documentation:
 
-⦿Overview 
+  ⦿Overview 
 
- The angular-web-notification is an angular service wrapper for the web notifications API.
+  The angular-web-notification is an angular service wrapper for the web notifications API.
 
 It is using the simple-web-notification library which provides a simple and easy notification API which works across browsers and provides automatic permission handling.
-See W3 Specification (https://dvcs.w3.org/hg/notifications/raw-file/tip/Overview.html), simple-web-notification (https://github.com/sagiegurari/simple-web-notification) 
-And Notification-Web APIs | MDN (https://developer.mozilla.org/en-US/docs/Web/API/notification) for more information.
+See [W3 Specification](https://dvcs.w3.org/hg/notifications/raw-file/tip/Overview.html), [simple-web-notification](https://github.com/sagiegurari/simple-web-notification) 
+And [Notification-Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/notification) for more information.
 
  Angular2andUp Forangular2andabove,itisrecommandedtousethesimple-web-
  notificationlibrarydirectly.
  ItprovidesthesameAPIanditisnotdependendonangular.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+```
 ** webNotification ⇒ Object
     The web notification service wraps the HTML 5 Web Notifications API as an angular service.
     See simple-web-notification for more API details.
@@ -125,7 +131,7 @@ Param               Type              Default                                   
 [options.onClick]  function                                 An optional onclick event handler
 [callback]           ShowNotificationCallback                 Called after the show is handled.
 
-
+```
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
