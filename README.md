@@ -27,7 +27,7 @@ Emotional-Notification
 
 # Demo:
 
-deployed version link  
+[Live-Dome]()  
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------    
 
@@ -51,12 +51,10 @@ These instructions will get you a copy of the project up and running on your loc
   ### Prerequisites
 
    What things you need to install software re and how to install them 
-   * This link contain the manual contains tutorials on installation of MongoDB. in diffrent platforms (Linux, macOS And Windows)
-       (https://docs.mongodb.com/manual/installation/).
-   * This link contain the command of installation of nodejs
-       (https://nodejs.org/en/download/package-manager/).
+   > This link contain the manual contains tutorials on installation of MongoDB. in diffrent platforms (Linux, macOS And Windows), [link](https://docs.mongodb.com/manual/installation/)
+   > This link contain the command of installation of nodejs, [link](https://nodejs.org/en/download/package-manager/)
 
-   * then Go to Installing Dependencies part and run those command at your terminal or your bash commander.
+   > then Go to Installing Dependencies part and run those command at your terminal or your bash commander.
 
 ## Development:
 
@@ -89,8 +87,8 @@ These instructions will get you a copy of the project up and running on your loc
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Limitations:
-The web notifications API is not fully supported in all browsers.
-Please see [supported browser versions](https://caniuse.com/#feat=notifications) for more information on the official spec support.
+> The web notifications API is not fully supported in all browsers.
+> Please see [supported browser versions](https://caniuse.com/#feat=notifications) for more information on the official spec support.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -109,7 +107,7 @@ And [Notification-Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/A
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 ```
-#### webNotification ⇒ Object
+webNotification ⇒ Object
     The web notification service wraps the HTML 5 Web Notifications API as an angular service.
     See simple-web-notification for more API details.
 
@@ -118,7 +116,7 @@ Returns: Object - The service instance
 Ngdoc: service
 Author: Sagie Gur-Ari
 
-#### webNotification.showNotification([title], [options], [callback])
+ webNotification.showNotification([title], [options], [callback])
   Shows the notification based on the provided input.
   The callback invoked will get an error object (in case of an error, null in case of no errors) and a 'hide' function which can be used to hide the notification.
 
