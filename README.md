@@ -74,18 +74,18 @@ These instructions will get you a copy of the project up and running on your loc
    
   ⦿Running Application:
 
-   clone the repo OR download it.
-    Run your data base mongodDB from your commander
+  - [x] clone the repo OR download it.
+  - [x] Run your data base mongodDB from your commander
     ```
     mongod
     ```
     
 
-    From inside the repo directory go to server directory and run
+  - [x] From inside the repo directory go to server directory and run
     ```
     node index.js 
     ```
-    open the App in the browser like (chrome browser) at 127.0.0.1:8000  
+  - [x] open the App in the browser like (chrome browser) at 127.0.0.1:8000  
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Limitations:
