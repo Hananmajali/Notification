@@ -123,6 +123,7 @@ Author: Sagie Gur-Ari
   The callback invoked will get an error object (in case of an error, null in case of no errors) and a 'hide' function which can be used to hide the notification.
 
 Access: public
+```
 
 | Command | Description |
 | --- | --- |
@@ -138,7 +139,7 @@ Access: public
 | [options.onClick] | function | | An optional onclick event handler |
 | [callback] | ShowNotificationCallback | | Called after the show is handled. |
 
-```
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
