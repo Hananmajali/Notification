@@ -17,13 +17,13 @@ Emotional-Notification
 
 # Table of Contents:
 
-  -Usage
-  -Technologies
-  -Getting started
-    .Prerequisites
-  -Development
-    .Installing Dependencies.
-    .Run Application
+  - Usage
+  - Technologies
+  - Getting started
+     - Prerequisites
+  - Development
+     - Installing Dependencies.
+     - Run Application
 
 # Demo:
 
@@ -37,12 +37,12 @@ You do not have to login/signup to use this app. However, without doing so, you 
 
 ## Technologies:
 
-   Node.js
-   AngularJs
-   Web-API Notification service
-   Mongo-DB(Mongoose)
-   Robo 3T 1.1.1
-   MLab
+   - Node.js
+   - AngularJs
+   - Web-API Notification service
+   - Mongo-DB(Mongoose)
+   - Robo 3T 1.1.1
+   - MLab
 
 ## Getting Started
 
@@ -64,28 +64,28 @@ These instructions will get you a copy of the project up and running on your loc
 
   ⦿Installing Dependencies:
 
-    From inside the repo directory 
-    ```
-     npm install.
-     bower install.
-     ```
+  From inside the repo directory 
+  ```
+  npm install.
+  bower install.
+  ```
+
 
    
   ⦿Running Application:
 
    clone the repo OR download it.
     Run your data base mongodDB from your commander
-
-     ```
-     - mongod
-     ```
+    ```
+    mongod
+    ```
+    
 
     From inside the repo directory go to server directory and run
-    
-     ```
-     -node index.js 
-     ```
-   4- open the App in the browser like (chrome browser) at 127.0.0.1:8000  
+    ```
+    node index.js 
+    ```
+    open the App in the browser like (chrome browser) at 127.0.0.1:8000  
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Limitations:
