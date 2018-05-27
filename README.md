@@ -124,15 +124,19 @@ Author: Sagie Gur-Ari
 
 Access: public
 
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
 
-| Param                 | Type                      | Default      |  Description  | 
-| -------------         | -------------             | -------------| ------------- |
-| [title]               | String                    |              | The notification title text (defaulted to empty string if null is provided)  |
-| [options]             | Object                    |              | Holds the notification data (web notification API spec for more info) |
-| [options.icon]        | String                    | /favicon.ico | The notification icon (defaults to the website favicon.ico)  |
-| [options.autoClose]   | Number                    |              | Auto closes the notification after the provided amount of millies (0 or undefined for no auto close)|
-| [options.onClick]     | function                  |              | An optional onclick event handler |
-| [callback]            | ShowNotificationCallback  |              |C alled after the show is handled. |
+| Param | Type | Default | Description | 
+| --- | --- | --- | --- |
+| [title] | String | | The notification title text (defaulted to empty string if null is provided) |
+| [options] | Object | | Holds the notification data (web notification API spec for more info) |
+| [options.icon] | String | /favicon.ico | The notification icon (defaults to the website favicon.ico) |
+| [options.autoClose] | Number | | Auto closes the notification after the provided amount of millies (0 or undefined for no auto close) |
+| [options.onClick] | function | | An optional onclick event handler |
+| [callback] | ShowNotificationCallback | | Called after the show is handled. |
 
 ```
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
