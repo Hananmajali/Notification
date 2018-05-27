@@ -2,7 +2,7 @@
 
 Emotional-Notification
 
-Description:
+## Description:
 
 'Emotional - Notification' web app. in our application we aimed to push a notification at specific time to collect some information from the student about their feelings and emotions at that time.
  We need at our organization RBK(Reboot Camp).org to gather some information from the students at some point, 
@@ -31,11 +31,11 @@ deployed version link
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------    
 
-##Usage:
+## Usage:
 
 You do not have to login/signup to use this app. However, without doing so, you will only get a notification at specific time. Once you get a notification, you will fill some information and submit.
 
-##Technologies:
+## Technologies:
 
    Node.js
    AngularJs
@@ -44,7 +44,7 @@ You do not have to login/signup to use this app. However, without doing so, you 
    Robo 3T 1.1.1
    MLab
 
-##Getting Started
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -58,7 +58,7 @@ These instructions will get you a copy of the project up and running on your loc
 
    * then Go to Installing Dependencies part and run those command at your terminal or your bash commander.
 
-##Development:
+## Development:
 
   Development of this application started on May 5, 2018 and the minimum viable product (MVP) was completed on May 8, 2018. The final application was deployed on Heroku on 26 May, 2018.
 
@@ -73,12 +73,15 @@ These instructions will get you a copy of the project up and running on your loc
    
   ⦿Running Application:
 
-   1- clone the repo OR download it.
-   2- Run your data base mongodDB from your commander
+   clone the repo OR download it.
+    Run your data base mongodDB from your commander
+
      ```
      - mongod
      ```
-   3- From inside the repo directory go to server directory and run
+
+    From inside the repo directory go to server directory and run
+    
      ```
      -node index.js 
      ```
