@@ -12,7 +12,7 @@ Emotional-Notification
 
 # Team:
  - Product Owner: @Sarah-Yousef.
- - Scrum Master: @Hanan-Majali.
+ - Scrum Master: @Hananmajali.
  - Development Team Members: @Hanan-majali ,@Sarah-Yousef.
 
 # Table of Contents:
@@ -109,7 +109,7 @@ And [Notification-Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/A
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 ```
-webNotification ⇒ Object
+:+1: webNotification ⇒ Object
     The web notification service wraps the HTML 5 Web Notifications API as an angular service.
     See simple-web-notification for more API details.
 
@@ -118,20 +118,21 @@ Returns: Object - The service instance
 Ngdoc: service
 Author: Sagie Gur-Ari
 
-webNotification.showNotification([title], [options], [callback])
+:+1: webNotification.showNotification([title], [options], [callback])
   Shows the notification based on the provided input.
   The callback invoked will get an error object (in case of an error, null in case of no errors) and a 'hide' function which can be used to hide the notification.
 
 Access: public
 
-Param               Type              Default                                       Description
------               -----             -------                                       -----------
-[title]              String                                     The notification title text (defaulted to empty string if null is provided)
-[options]            Object                                     Holds the notification data (web notification API spec for more info)
-[options.icon]       String            /favicon.ico               The notification icon (defaults to the website favicon.ico)
-[options.autoClose]  Number                                     Auto closes the notification after the provided amount of millies (0 or undefined for no auto close)
-[options.onClick]  function                                 An optional onclick event handler
-[callback]           ShowNotificationCallback                 Called after the show is handled.
+
+| Param                 | Type                      | Default      |  Description  | 
+| -------------         | -------------             | -------------| ------------- |
+| [title]               | String                    |              | The notification title text (defaulted to empty string if null is provided)  |
+| [options]             | Object                    |              | Holds the notification data (web notification API spec for more info) |
+| [options.icon]        | String                    | /favicon.ico | The notification icon (defaults to the website favicon.ico)  |
+| [options.autoClose]   | Number                    |              | Auto closes the notification after the provided amount of millies (0 or undefined for no auto close)|
+| [options.onClick]     | function                  |              | An optional onclick event handler |
+| [callback]            | ShowNotificationCallback  |              |C alled after the show is handled. |
 
 ```
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
