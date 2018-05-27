@@ -132,8 +132,14 @@ Access: public
 | [options.onClick] | function | | An optional onclick event handler |
 | [callback] | ShowNotificationCallback | | Called after the show is handled. |
 
-
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Acknowledgments:
+ 
+> you don’t allow apps to send you push notifications unless they really matter to you.
+  > Hanan Majali
+ - and your response its really important to us.
+
 
 
 
